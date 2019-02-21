@@ -1,6 +1,12 @@
-# Postfix Mail Relay
+# Postfix Mail Relay for arm64
 
 Simple SMTP relay, originally based on [alterrebe/docker-mail-relay](https://github.com/alterrebe/docker-mail-relay), but has been rewritten since.
+
+This fork by Crypdex only changes the base image to support arm64 targets.
+
+```
+docker run crypdex/postfix-relay-arm64:latest
+```
 
 ## Description
 
