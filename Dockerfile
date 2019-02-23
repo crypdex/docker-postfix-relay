@@ -1,4 +1,4 @@
-FROM arm64v8/alpine
+FROM multiarch/alpine
 LABEL maintainer "Alex Simenduev <shamil.si@gmail.com>"
 
 EXPOSE 25
